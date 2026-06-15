@@ -1,38 +1,82 @@
 # AI Job Copilot
 
-AI-powered job search and application assistant built using .NET 8 and Angular.
+AI-powered job application assistant built using ASP.NET Core, Angular, and Large Language Model (LLM) integrations.
 
-## Goal
+## Overview
 
-Help professionals identify suitable jobs, analyse job descriptions, improve resumes, generate cover letters, and track applications efficiently.
+AI Job Copilot helps software professionals evaluate how well their profile matches a job description.
 
-## Planned Features
+The platform analyzes resumes and job descriptions, identifies skill gaps, provides resume recommendations, generates tailored cover letters, and assists with interview preparation.
+
+## Key Features
+
+* Resume vs Job Description analysis
+* Job match scoring
+* Missing skill identification
+* Resume improvement suggestions
+* AI-generated cover letters
+* Interview preparation guidance
+* ATS optimization recommendations
+
+## Technology Stack
+
+### Backend
+
+* ASP.NET Core 8
+* REST APIs
+* JWT Authentication
+
+### Frontend
+
+* Angular 19
+
+### Database
+
+* MySQL
+
+### AI Integration
+
+* OpenAI API
+* Prompt Engineering
+* LLM-based Analysis
+
+### DevOps
+
+* GitHub
+* CI/CD Pipeline (Planned)
+
+## Planned Architecture
+
+Angular Frontend
+↓
+ASP.NET Core API
+↓
+AI Service Layer
+↓
+OpenAI API
+↓
+MySQL
+
+## Roadmap
 
 ### Phase 1
-- Job Description Parser
-- Resume Match Analysis
-- ATS Score Calculator
-- Resume Tailoring Assistant
-- Cover Letter Generator
-- Application Tracker
 
-### Technology Stack
+* Project setup
+* Architecture design
+* Resume analysis API
 
-Backend
-- .NET 8 Web API
-- JWT Authentication
-- MySQL
+### Phase 2
 
-Frontend
-- Angular
+* AI job matching
+* Cover letter generation
+* ATS scoring
 
-Infrastructure
-- Docker
-- Azure / AWS
+### Phase 3
 
-AI
-- OpenAI Integration
+* Dashboard
+* Application tracking
+* Interview assistant
 
 ## Status
 
-Project planning and architecture phase.
+Work in Progress
